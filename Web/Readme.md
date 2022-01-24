@@ -1,1 +1,1 @@
-# Folder for Web Dev part of DEP
+# Web Dev part of DEP
