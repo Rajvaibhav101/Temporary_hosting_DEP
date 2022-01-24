@@ -120,7 +120,6 @@ plt.ylabel("Loss (training and validation)")
 plt.xlabel("Training Steps")
 plt.show()
 class_names = ["Class " + classes[i] for i in range(len(classes))]
-print(classification_report(validation_generator.classes, predictions, target_names = class_names))
 def load_image(filename):
     img = cv2.imread(os.path.join(test_dir, filename))
     img = cv2.resize(img, (IMAGE_SHAPE[0], IMAGE_SHAPE[1]) )
